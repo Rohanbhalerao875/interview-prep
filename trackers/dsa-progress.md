@@ -8,7 +8,7 @@
 - [x] Two Sum
 - [x] Contains Duplicate
 - [ ] Valid Anagram
-- [ ] Group Anagrams
+- [x] Group Anagrams
 
 ## Weekly goal
 - Solve 2-3 problems per week
