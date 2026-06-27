@@ -8,7 +8,7 @@
 
 ## Files in this folder
 
-| File | Purpose |
+| File / Folder | Purpose |
 |------|---------|
 | `study_plan.md` | Master plan, weekly rhythm, milestones |
 | `leetcode_checklist.md` | 80 LeetCode problems to solve (track progress, link to GitHub) |
@@ -16,6 +16,10 @@
 | `job_applications.md` | Track applications, recruiter contacts, salary negotiation |
 | `weekly_log.md` | Weekly progress updates (fill every Sunday) |
 | `resources.md` | Learning materials, platforms, YouTube channels, AWS guides |
+| `FOLLOWUP_QUESTIONS.md` | Follow-up questions and advanced variations |
+| `skills/` | Review policies and reusable guidance |
+| `notes/` | Personal notes and revision summaries |
+| `trackers/` | Structured trackers for studies and progress |
 | `README.md` | This file |
 
 ---

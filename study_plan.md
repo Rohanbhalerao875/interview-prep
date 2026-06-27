@@ -45,6 +45,7 @@
 - Keep the plan simple, small wins every day
 - Update `weekly_log.md` every Sunday
 - GitHub push every Friday with solved problems and documentation
+- Follow the review policy in `skills/dsa-review-policy.md` for all DSA updates
 
 ---
 
