@@ -14,20 +14,33 @@ class Solution {
             return false;
         }
 
+        if(word[0]=='}' || word[0]== ']'||word[0]==')'){
+            return false;
+        }
+
         for(int i=0;i<s.length();i++){
            if(word[i]=='{'){
             st.push('}');
            } 
-          if(word[i]=='['){
+          else if(word[i]=='['){
             st.push(']');
           }
-           if(word[i]=='('){
+            else if(word[i]=='('){
             st.push(')');
            }
-           if(st.size()!=0 && st.peek()==word[i]){
-                st.pop();
-           }
-               
+           
+           
+            else{
+                if(st.size()==0){
+                    return false;
+                }
+                else if(st.peek()!=word[i]){
+                    return false;
+                }
+                else{
+                    st.pop();
+                }
+            }
         }
         
         if(st.size()==0){
